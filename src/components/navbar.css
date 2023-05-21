@@ -1,0 +1,35 @@
+.navbarContainer {
+  background: linear-gradient(185.3deg, #47BC9D -49.63%, rgba(118, 203, 180, 0) 94.26%);
+  width: 100vw;
+  height: 144px;
+  display: flex;
+  flex-direction: row;
+}
+
+.nameContainer {
+  width: 146px;
+  height: 47px;
+  padding-left: 1rem;
+  margin-top: 0.5rem;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+}
+.nameContainer span {
+  font-size: 18px;
+  line-height: 22px;
+  display: flex;
+  color: #1e1e1e;
+  font-weight: 700;
+}
+.iconsContainer {
+  margin-top: 1.5rem;
+  margin-left: 6rem;
+  margin-right: 0.25rem;
+  padding: 0.5rem;
+  display: flex;
+  flex-direction: row;
+  gap: 1rem;
+  width: 110.91px;
+  height: 28.8px;
+}

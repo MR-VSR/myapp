@@ -1,0 +1,82 @@
+.categoriesContainer {
+  background: #ffffff;
+  width: 100%;
+  height: auto;
+  margin-top: 0.5rem;
+}
+.categoryHeading {
+  width: 200px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 20px;
+  line-height: 19px;
+  display: flex;
+  align-items: flex-end;
+  color: #1e1e1e;
+  margin-left: 1rem;
+}
+.categoriesNameContainer{
+  display: flex;
+  flex-direction: row;
+}
+.categoryBrowser {
+  margin-top: 1.4rem;
+  margin-left: 7rem;
+  width: 85px;
+  height: 15px;
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 15px;
+  display: flex;
+  align-items: flex-end;
+  color: #1e1e1e;
+}
+.categoryCardContainer {
+  overflow-x: auto;
+  padding: 1rem;
+  display: grid;
+  grid-auto-flow: column;
+  grid-auto-columns: 20%;
+  gap: 6rem;
+  margin-top: 200px;
+  overscroll-behavior-inline: contain;
+  scroll-snap-type: inline mandatory;
+  scroll-padding-inline:14px;
+  margin-top: -1rem;
+}
+.categoryCardContainer > * {
+  scroll-snap-align: start;
+}
+.categoryCardContainer::-webkit-scrollbar{
+    display: none;
+}
+.categoryCard {
+  display: flex;
+  flex-direction: row;
+  gap: 5px;
+  width: 155px;
+  height: 79px;
+  opacity: 0.86;
+  background-image: url(../../../assets/image_34.png);
+  border-radius: 4px;
+}
+.categoryCard img {
+  padding:2px 5px 5px 5px;
+  height: 70px;
+  width: 50px;
+}
+.NameContainer{
+    display: flex;
+    align-items: center;
+}
+.categoryCard p {
+  font-family: "Inter";
+  font-style: normal;
+  font-weight: 600;
+  font-size: 16px;
+  line-height: 17px;
+  display: flex;
+}
